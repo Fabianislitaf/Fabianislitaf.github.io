@@ -1,0 +1,153 @@
+body{
+  background-color: #000000;
+}
+
+
+li{colorcolor="#FFFFFF"}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbarcont{
+  padding-left: 478px;
+  padding-right: 478px
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 12px 50px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+
+img {
+/*  border-radius: 90%; */
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+ul .nav-text{
+/*  border-radius: 90%; */
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+ul .profile-image:hover {
+/*  -webkit-transform: scale(2.5);
+    transform: scale(2.5);   */
+  -webkit-transform: scale(2.5) rotate(360deg);
+   transform: scale(2.5) rotate(360deg);
+}
+
+
+
+}
+
+html {
+  height: 100%;
+}
+body {
+  background: #F1f1f2;
+  padding: 0;
+  text-align: center;
+  font-family: 'open sans';
+  position: relative;
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+h1, h2 {
+  width: 100%;
+  float: left;
+}
+
+.facebook{
+  float: left;
+}
+
+.facebookimage{
+  padding-left: 400px;
+}
+
+.photogal{
+  font-family: "Courier New";
+}
+
+h1 {
+  margin-top: 100px;
+  color: #999;
+  margin-bottom: 5px;
+  font-size: 70px;
+  font-weight: 100;
+}
+.entry-title{
+  margin-top: 100px;
+  color: #000000;
+  margin-bottom: 50px;
+  font-size: 70px;
+  font-weight: 100;
+
+h2 {
+  padding: 00px 20px 30px 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  letter-spacing: 0px;
+  color: #888;
+  font-size: 20px;
+  line-height: 160%;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+
+
+/*scroll animatin*/
+
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
